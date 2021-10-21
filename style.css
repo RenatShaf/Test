@@ -48,7 +48,7 @@ body {
 }
  .header{
    display: flex;
-   align-items: stretch;
+   align-items: baseline;
    justify-content: center;
 }
  .logo {
