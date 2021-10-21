@@ -1,6 +1,6 @@
  body {
   height: 100vh;
-  background-image: url(images/background.jpg);
+  background-image: url(background.jpg);
   box-shadow: 0 0 8px 8px #696969;
 }
  .phone {
