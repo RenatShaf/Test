@@ -1,14 +1,18 @@
 let phrases = [
-  { text: 'отправить другу смешную гифку', image: 'https://code.s3.yandex.net/web-code/procrastinate/1.gif' },
-  { text: 'посмотреть скидки на авиабилеты', image: 'https://code.s3.yandex.net/web-code/procrastinate/2.png' },
-  { text: 'разобраться, о чём поют рэперы', image: 'https://code.s3.yandex.net/web-code/procrastinate/3.png' },
-  { text: 'Юрий Дудь', image: 'https://code.s3.yandex.net/web-code/procrastinate/4.png' },
-  { text: 'расставить книги на полке по цвету', image: 'https://code.s3.yandex.net/web-code/procrastinate/5.png' },
-  { text: 'читать про зарплаты в Сан-Франциско', image: 'https://code.s3.yandex.net/web-code/procrastinate/6.png' },
-  { text: 'прочитать новости и ужаснуться в комментариях', image: 'https://code.s3.yandex.net/web-code/procrastinate/7.png' },
-  { text: 'попасть в поток грустных песен и вспомнить все ошибки молодости', image: 'https://code.s3.yandex.net/web-code/procrastinate/8.png' },
-  { text: 'посмотреть трейлер сериала и заодно первый сезон', image: 'https://code.s3.yandex.net/web-code/procrastinate/9.png' },
-  { text: 'проверить непрочитанное в Telegram-каналах', image: 'https://code.s3.yandex.net/web-code/procrastinate/10.png' }
+  { text: 'РЅР°РІРµРґРё РїРѕСЂСЏРґРѕРє Рё РїСЂРѕС‚СЂРё РїС‹Р»СЊ РІ Р°РїРїР°СЂР°С‚РЅС‹С…', image: 'https://code.s3.yandex.net/web-code/procrastinate/1.gif' },
+  { text: 'РёРґРё Р·Р°РіРѕРЅРё Сѓ РІС…РѕРґР° РІ С‚РµР°С‚СЂ РїР°СЂСѓ Р±РёР»РµС‚РѕРІ РЅР° РїСЂРµРјСЊРµСЂСѓ', image: 'https://code.s3.yandex.net/web-code/procrastinate/2.png' },
+  { text: 'РїРѕРјРѕРіРё РєРѕР»Р»РµРіРµ РїРѕРґРіРѕС‚РѕРІРёС‚СЊСЃСЏ Рє СЃРїРµРєС‚Р°РєР»СЋ', image: 'https://code.s3.yandex.net/web-code/procrastinate/3.png' },
+  { text: 'СЃРєР°Р¶Рё РЅР°С‡Р°Р»СЊРЅРёРєСѓ, С‡С‚Рѕ РѕРЅ С…РѕСЂРѕС€РёР№ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЊ Рё РјРЅРѕРіРѕ СЂР°Р±РѕС‚Р°РµС‚', image: 'https://code.s3.yandex.net/web-code/procrastinate/4.png' },
+  { text: 'РЅР°РІРµРґРё РїРѕСЂСЏРґРѕРє РІ С‚РµС…РЅРёС‡РµСЃРєРѕР№ РґРѕРєСѓРјРµРЅС‚Р°С†РёРё', image: 'https://code.s3.yandex.net/web-code/procrastinate/5.png' },
+  { text: 'РЅР°РІРµРґРё РјРѕСЃС‚С‹ СЃ РєРѕР»Р»РµРіР°РјРё, СѓР·РЅР°Р№ РїРѕСЃР»РµРґРЅРёРµ С‚РµР°С‚СЂР°Р»СЊРЅС‹Рµ СЃРїР»РµС‚РЅРё Рё СЂР°СЃСЃРєР°Р¶Рё РёС… РјРЅРµ', image: 'https://code.s3.yandex.net/web-code/procrastinate/6.png' },
+  { text: 'РёР·СѓС‡Рё СЂРµРї РїР»Р°РЅ РЅР° Р±Р»РёР¶Р°Р№С€РёР№ РјРµСЃСЏС†', image: 'https://code.s3.yandex.net/web-code/procrastinate/7.png' },
+  { text: 'РїРѕСЃР»СѓС€Р°Р№ Рё РЅРѕСЂРјР°Р»РёР·СѓР№ С‚СЂРµРєРё Рє СЃРїРµРєС‚Р°РєР»СЏРј', image: 'https://code.s3.yandex.net/web-code/procrastinate/8.png' },
+  { text: 'РёРґРё РїРѕРїРµР№ С‡Р°Р№ СЃ СЃР°Р»Р°С‚РёРєРѕРј Рё РЅРµ РјРµС€Р°Р№ РјРЅРµ СЂР°Р±РѕС‚Р°С‚СЊ!', image: 'https://www.pngkit.com/png/full/244-2443396_hibiscus-tea-coffee-cup-orange-pu-er-tea.png' },
+  { text: 'РїРµСЂРµСЃС‡РёС‚Р°Р№ СЂР°С†РёРё Рё РІРЅРµСЃРё РёРЅС„Сѓ РІ С‚Р°Р±Р»РёС†Сѓ', image: 'https://bumper-stickers.ru/7459-thickbox_default/racija-policeyskogo.jpg' },
+  { text: 'РїРѕСЃС‡РёС‚Р°Р№ Р±Р°С‚Р°СЂРµР№РєРё, Р·Р°РЅРµСЃРё РёРЅС„Сѓ РІ Р¶СѓСЂРЅР°Р» РЅР° РґРёСЃРєРµ', image: 'https://clipart-best.com/img/battery/battery-clip-art-57.png' },
+  { text: 'РЅР°РІРµРґРё РїРѕСЂСЏРґРѕРє РІ РїСЂРѕРІРѕРґР°С… РЅР° РєР°Р±РµР»СЊРЅРѕРј СЃС‚РµР»Р°Р¶Рµ РІ 244', image: 'https://phonoteka.org/uploads/posts/2021-06/1623135217_9-phonoteka_org-p-kolyuchaya-provoloka-tekstura-krasivo-12.png' },
+  { text: 'РїСЂРѕРІРµСЂСЊ РІСЃРµ РїР°СЃРїРѕСЂС‚Р° СЃРїРµРєС‚Р°РєР»РµР№ РЅР° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ', image: 'https://code.s3.yandex.net/web-code/procrastinate/9.png' },
+  { text: 'СЂР°Р·Р±РµСЂРё СЂР°Р±РѕС‡СѓСЋ РїРѕС‡С‚Сѓ', image: 'https://code.s3.yandex.net/web-code/procrastinate/10.png' }
 ];
 
 function getRandomElement(arr) {
@@ -30,6 +34,7 @@ button.addEventListener('click', function () {
   {advice.style.fontSize = '33px'; } 
   else {advice.style.fontSize = '42px';}
 });
-  for (let i = 0; i <= 2; i = i + 1)
+  //for (let i = 0; i <= 2; i = i + 1)
   {smoothly(phrase, 'textContent', phrases[i].text)
   smoothly(image, 'src', phrases[i].image)}
+
