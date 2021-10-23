@@ -71,8 +71,8 @@ body {
   transition: opacity 0.2s;
 }
  .image {
-  width:70%;
-  max-height:240px;
+  width:50%;
+  max-height:200px;
   display: block;
   margin: 3px auto 3px;
 }
