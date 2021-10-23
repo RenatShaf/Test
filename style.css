@@ -15,8 +15,10 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 body {
-  height: 100vh;
   background-image: url(background.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
   box-shadow: 0 0 8px 8px #696969;
 }
  .phone {
@@ -76,13 +78,13 @@ body {
 }
   .gif {
   display: block;
-  width: 36%;
+  width: 50%;
   margin: 15px auto 0px;
   border: 20px solid #808080;
   box-shadow: 0 0 15px 10px #808080;
 }
  .advice {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   line-height: 1.1;
   margin-bottom: 70px;
